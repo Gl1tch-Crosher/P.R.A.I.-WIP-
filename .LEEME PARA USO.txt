@@ -29,8 +29,6 @@ C:\Users\TuUsuario\AppData\Local\Programs\Python\Python312\python.exe app.py
 Presiona:
 CTRL + C
 
-
----
-
 Si aparece algún error relacionado con Flask, reinstala el paquete:
 pip install flask
+
