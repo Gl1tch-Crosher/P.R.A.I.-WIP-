@@ -1,0 +1,42 @@
+/* Estilos base del cuerpo */
+body {
+    font-family: 'Inter', sans-serif;
+    background-color: #F1F5F9; /* praigray */
+    color: #333;
+}
+/* Contenedor principal para manejar el overflow y scroll */
+.main-container {
+    display: flex;
+    min-height: 100vh;
+}
+/* Estilo para el sidebar responsive */
+.sidebar {
+    transition: transform 0.3s ease-in-out;
+    box-shadow: 4px 0 15px rgba(0, 0, 0, 0.2);
+    z-index: 50;
+}
+/* Estilos de las tarjetas con la línea de énfasis */
+.praiblue-card {
+    border-top: 5px solid #06B6D4; /* praiaccent */
+    transition: transform 0.2s;
+}
+.praiblue-card:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -4px rgba(0, 0, 0, 0.05);
+}
+/* Estilo para los enlaces de navegación activos */
+.nav-link.active-nav-link {
+    background-color: #06B6D4; /* praiaccent */
+    color: white;
+    box-shadow: 0 4px 6px -1px rgba(6, 182, 212, 0.3);
+    font-weight: 600;
+}
+.nav-link:not(.active-nav-link):hover {
+    background-color: #1a2c3f; /* Tono más oscuro del azul primario */
+}
+/* Gráfico de barras (Simulación) */
+.chart-bar {
+    background-color: #06B6D4;
+    transition: height 0.5s ease-out;
+    border-radius: 4px 4px 0 0;
+}
